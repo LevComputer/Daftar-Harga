@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainSceneController">
+   <children>
+      <ImageView fx:id="ImageView4" fitHeight="906.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LevComputer%20Backround.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="Label1" layoutX="111.0" layoutY="14.0" text="LEV COMPUTER" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="100.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label3" layoutX="197.0" layoutY="178.0" text="Layanan Perbaikan Komputer" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="34.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="CheckBox1" layoutX="111.0" layoutY="450.0" mnemonicParsing="false" onAction="#change" text="Install Windows 11/10/8/7" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox2" layoutX="111.0" layoutY="493.0" mnemonicParsing="false" onAction="#change" text="Install Software" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox3" layoutX="111.0" layoutY="536.0" mnemonicParsing="false" onAction="#change" text="Install Game" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox4" layoutX="111.0" layoutY="579.0" mnemonicParsing="false" onAction="#change" text="Isi Film Movie" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox6" layoutX="111.0" layoutY="665.0" mnemonicParsing="false" onAction="#change" text="Ganti Thermal Paste" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox5" layoutX="111.0" layoutY="622.0" mnemonicParsing="false" onAction="#change" text="Hardware Cleaning" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox7" layoutX="111.0" layoutY="708.0" mnemonicParsing="false" onAction="#change" text="Ganti Baterai" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox8" layoutX="111.0" layoutY="751.0" mnemonicParsing="false" onAction="#change" text="Ganti Keyboard" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="CheckBox9" layoutX="111.0" layoutY="794.0" mnemonicParsing="false" onAction="#change" text="Ganti LCD" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <ImageView fx:id="ImageView1" fitHeight="300.0" fitWidth="300.0" layoutX="251.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@LevComputer%20Logo%202.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="CheckBox10" layoutX="111.0" layoutY="837.0" mnemonicParsing="false" onAction="#change" text="Ganti Speaker" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="Label4" alignment="TOP_CENTER" layoutY="387.0" prefHeight="32.0" prefWidth="800.0" text="TOTAL HARGA" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="ImageView2" fitHeight="34.0" fitWidth="34.0" layoutX="48.0" layoutY="253.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon%20Instagram.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ImageView3" fitHeight="34.0" fitWidth="34.0" layoutX="48.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Icon%20WhatsApp.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="Label5" layoutX="86.0" layoutY="254.0" text="\@Lev_Computer" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label6" layoutX="86.0" layoutY="288.0" text="0822-5925-6328" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label7" layoutX="550.0" layoutY="270.0" text="#MURAHBANGEEEET" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="Label2" layoutX="261.0" layoutY="137.0" text="Solution For Your Computer" textFill="WHITE">
+         <font>
+            <Font name="Impact" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
